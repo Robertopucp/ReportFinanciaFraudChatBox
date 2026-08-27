@@ -1,0 +1,31 @@
+# Sesión 6 - Recuperación de Información (Embeddings + RAG + ChromaDB)
+
+# Base de datos vectorial (Taller Práctico - Parte 3)
+chromadb>=0.5
+
+# Embeddings (Taller Práctico - Parte 2)
+sentence-transformers>=2.3
+torch>=2.1
+
+# Embeddings alternativos con OpenAI (opcional)
+openai>=1.0
+
+# Utilidades
+python-dotenv>=1.0
+numpy>=1.24
+tqdm>=4.66
+
+# Extracción de texto (Taller Práctico - Parte 1)
+pypdf>=3.17
+python-pptx>=0.6.23
+
+# Notebook para probar celda a celda
+jupyter>=1.0
+ipykernel>=6.0
+
+# Web scrapping 
+
+selenium>=4.15
+pandas>=2.0
+webdriver-manager>=4.0
+seleniumbase==4.41
