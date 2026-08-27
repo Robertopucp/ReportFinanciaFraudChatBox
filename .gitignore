@@ -1,0 +1,29 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Variables de entorno / secretos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Base de datos vectorial (generada localmente)
+chroma_db/
+
+# Datos e insumos pesados
+data/
+pdfs/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
